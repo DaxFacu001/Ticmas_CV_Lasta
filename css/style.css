@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+
+* {
+  font-family: "DM Sans";
+  margin: 0;
+}
+
+body nav {
+    background-color: blue;
+
+}
+
+body nav ul{
+    background-color: aqua;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body nav ul a{
+    text-decoration: none;
+    margin: 1%;
+    font-size: 1.5rem;
+}
+
+body nav ul a li{
+    list-style: none;
+}
+
+main {
+    padding-top: 2%;
+}
+
+#contenedoresSuperiores {
+    display: flex;
+}
+
+#contenedorIzq {
+    position: relative;
+    width: 50%;
+}
+
+#imagenPerfilDiv {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#imagenPerfil {
+    width: 80%;
+}
+
+
+#contenedorDer {
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+
+#informacionPersonalLaboral li{
+    font-size: 1.4rem;
+    list-style: none;
+}
+
+#informacionPersonal {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#informacionPersonal h1{
+    font-size: 3rem;
+}
+
+#informacionPersonal p{
+    font-size: 1.4rem;
+}
+
+.titulosIntermediosDiv {
+    padding-top: 1%;
+
+}
+
+.titulosIntermedios{
+    text-align: center;
+    background-color: aqua;
+    padding: 1%;
+    font-size: 1.7rem;
+}
+
+#informacionLaboral ul li{
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+
+
+
+#buttonActive {
+    position: fixed;
+    left: 90%;
+    z-index: 1;
+    background-color: #DE7C47;
+}
+
+.collapsible {
+    background-color: rgb(123, 189, 185);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    list-style: none;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(123, 189, 185);
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  
+
+  .imagenContacto {
+    width: 20%;
+  }
+
+  #contenedorProgramas {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .divProgramas {
+    width: 100%;
+  }
+
+  .imagenProgramas {
+    width: 40%;
+    padding-left: 25%;
+  }
